@@ -1,0 +1,7 @@
+[package]
+name = "basic"
+version = "0.1.0"
+authors = ["Tao Xie <tao.xie@hbus.com>"]
+edition = "2018"
+
+[dependencies]
