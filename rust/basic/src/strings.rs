@@ -1,4 +1,5 @@
 pub fn run() {
+    println!("===== strings =====");
     // primitive string
     let hello = "Hello";
     // growable, heap-allocated data structure      
@@ -28,4 +29,7 @@ pub fn run() {
     assert_eq!(10, s.capacity());
 
     println!("{}", m_hello);
+
+    // In general, you should use String when you need ownership, 
+    // and &str when you just need to borrow a string.
 }
