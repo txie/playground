@@ -13,4 +13,6 @@ pub fn run() {
     println!("Binary: {:b} Hex: {:x} Octal: {:o}", 10, 10, 10);
     // placeholder for debug trait
     println!("{:?}", (12, true, "Brad"));
+
+    println!("10 + 10 = {}", 10 + 10);
 }
