@@ -1,6 +1,6 @@
 package entities
 
 type User struct {
-	name  string
+	Name  string
 	email string
 }
