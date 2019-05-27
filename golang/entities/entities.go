@@ -2,5 +2,10 @@ package entities
 
 type User struct {
 	Name  string
-	email string
+	Email string
+}
+
+type Admin struct {
+	user
+	Rights int
 }
